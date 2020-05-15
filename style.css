@@ -1,4 +1,19 @@
 
+html, body {
+    width: 90%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+
+
+
+
 
 
 .second-window {
@@ -14,20 +29,24 @@
  
 .second-window-text {
     font-family: Impact;
-    font-size: 20px;
+    font-size: 40px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
     position: absolute;
     bottom: 10px;
     text-align: center;
-    top: 270px;
+    top: -150px;
     right: 5px;
-    left: 70px;
+    left: 110px;
+   line-height: 300px;
 }
   
 .close-1 {
 font-family: Arial;
 position: absolute;
-top: -260px;
-left: 200px;
+top: 20px;
+left: 165px;
+font-size: 30px;
 }
 
 
@@ -35,11 +54,11 @@ left: 200px;
     visibility: hidden; 
     position: absolute;
     width: 328px;
-    height: 380px;
+    height: 260px;
     left: 927px;
     top: 200px;
 
-background: #6b6b6b;
+background: #acacac;
 
 }
 
@@ -47,11 +66,11 @@ background: #6b6b6b;
 
 
 .third-window-text {
-    display: flex;
-    margin-top: 20px;
+    position: absolute;
+    margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 28px;
     height: 25%;
     font-family: Arial;
 
@@ -64,18 +83,18 @@ background: #6b6b6b;
     font-family: Arial;
     position: absolute;
     font-size:  20px;
-    top: -2px;
-    left: 306px;
+    top: -8px;
+    left: 305px;
 
 }
 
 
 .third-window-img {
- width: 90%;
+ width: 95%;
  position: relative;
 border-radius: 9px;
-margin-left: 16px;
-margin-top: -30px;
+margin-left: 8px;
+margin-top: 68px;
 
 
 }
@@ -85,7 +104,7 @@ margin-top: -30px;
     visibility: hidden;
     position: absolute;
 width: 393px;
-height: 290px;
+height: 270px;
 left: -350px;
 right: 50px;
 top: -100px;
@@ -94,10 +113,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .fourth-window-text {
-  
+   position: absolute;
     font-family: Impact;
+    line-height: 200px;
     font-size: 20pt;
-    margin-top: 10px;
+    margin-top: -90px;
     color: white;
     text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
      margin-left: 10pt;
@@ -110,13 +130,13 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: absolute;
     font-size:  20px;
     top: -2px;
-    left: 380px;
+    left: 367px;
 
 
 }
 
 .fouth-window-img {
-    position: ab;
+    
 width: 393px;
 height: 272px;
 
@@ -132,7 +152,7 @@ height: 272px;
 .five-window {
     visibility: hidden;
     position: absolute;
-width: 336px;
+width: 300px;
 height: 270px;
     left: 200px;
     top: 300px;
@@ -148,7 +168,7 @@ height: 270px;
     height: 20px;
     font-size:  20px;
     top: -5px;
-    left: 3px;
+    left: 287px;
     
 }
 
@@ -156,11 +176,11 @@ height: 270px;
 
 
 .five-window-text {
-    margin-top: 10px;
-    margin-left: 18px;
+    margin-top: 2px;
+    margin-left: 8px;
     margin-right: 18px;
     font-family: Arial;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 
@@ -168,10 +188,10 @@ height: 270px;
 .five-window-img {
 
     position: absolute;
-    width: 90%;
+    width: 95%;
     border-radius: 9px;
-    right: 17px; 
-    bottom: 10px;
+    right: 8px; 
+    bottom: 5px;
 
 }
 
@@ -182,7 +202,7 @@ height: 270px;
     position: absolute;
     position: absolute;
     width: 200px;
-    height: 380px;
+    height: 360px;
 left: 450px;
 top: 270px;
 background: #E8E8E8;
@@ -194,24 +214,24 @@ box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     position: absolute;
     font-size:  20px;
     top: -3px;
-    left: 215px;
+    left: 185px;
 
 }
 
 
 .six-window-text {
-    margin-top: 15px;
+    margin-top: 4px;
     margin-left: 10px;
     margin-right: 10px;
     font-family: Arial;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .six-window-img {
     position: absolute;
     width: 90%;
     margin-left: 10PX;
-    margin-top: 15px;
+    margin-top: 4px;
     border-radius: 9px;
 
 }
@@ -242,7 +262,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: absolute;
     font-size:  20px;
     top: -3px;
-    left: 985px;
+    left: 455px;
 }
 
 .seven-window-img1 {
@@ -337,7 +357,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .close-7 {
     position: absolute;
-    left: 345px;
+    left: 343px;
     top: -1px;
     margin-right: -10px;
 }
@@ -358,7 +378,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: absolute;
     height: 5px;
     width: 353px;
-    left: 1px;
+    left: 0px;
     top: 200px;
   background-color: black;
 
@@ -367,7 +387,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: absolute;
     height: 5px;
     width: 353px;
-    left: 1px;
+    left: 0px;
     top: 355px;
   background-color: black;
 
@@ -376,7 +396,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: absolute;
     height: 5px;
     width: 353px;
-    left: 1px;
+    left: 0px;
     top: 50px;
   background-color: black;
 
@@ -480,7 +500,8 @@ top: -15px;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
     left: 233px;
-    top: -1px;
+    font-size: 20px;
+    top: -4px;
    
 }
 .ten-window {
@@ -505,6 +526,15 @@ top: -100px;
 
    
 
+}
+
+
+.close-9 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: -5px;
+    left: 305px;
 }
 p {
 margin-bottom: -10px;
@@ -559,20 +589,11 @@ margin-bottom: -10px;
        background-color: black;
      }
 
-     .hb11 { 
-        position: absolute;
-        height: 3px;
-        width: 353px;
-        left: 3px;
-        top: 300px;
-      background-color: black;
-    
-     }
 
      .hb21 { 
         position: absolute;
         height: 3px;
-        width: 357px;
+        width: 354px;
         left: 0px;
         top: 200px;
       background-color: black;
@@ -582,8 +603,8 @@ margin-bottom: -10px;
      .hb31 { 
         position: absolute;
         height: 3px;
-        width: 353px;
-        left: 1px;
+        width: 354px;
+        left: 0px;
         top: 33px;
       background-color: black;
     
@@ -763,11 +784,12 @@ background: url(Screenshot_2.png);
 }
 
 .close-12{
+    font-family: 'Comic Sans MS', arial;
     position: absolute;
-    font-size: 14px;
+    font-size: 18px;
     color: black;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: -8px;
+    margin-left: 287px;
 }
 
 
@@ -899,15 +921,15 @@ text-align: right;
 
  .container
  {
-      position: absolute;
- width: 100%;
- height: 100%;
- left: 0px;
- top: 0px;
- background-size: auto;
- background-repeat: no-repeat;
- background-position:  center;
- background: url(intro-bg.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url(intro-bg.jpg);
  
  }
 
@@ -973,8 +995,15 @@ text-align: right;
 
 
 
-   @media only screen and (max-width:375px)
+   @media only screen and (max-width:375px) and (max-height:812px)
              {
+                 .container {
+                     width: 375px;
+                     height: 812px;
+                     background: url(intro-bg.jpg);
+                 }
+
+
        .back-text {
            font-size: 10%;
         align-content: center;
