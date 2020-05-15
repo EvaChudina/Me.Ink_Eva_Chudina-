@@ -997,7 +997,18 @@ text-align: right;
 
    @media only screen and (max-width:375px) 
              {
-                 
+                 .container {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    left: 0px;
+                    top: 0px;
+                    background-size: auto;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background: url(mob-b.jpg);
+
+                 }
 
 
        .back-text {
@@ -1042,7 +1053,7 @@ text-align: right;
         position: absolute;
         bottom: 10px;
         text-align: center;
-        top: 270px;
+        top: -100px;
         right: 5px;
         left: 70px;
     }
