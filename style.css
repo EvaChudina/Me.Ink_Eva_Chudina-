@@ -997,11 +997,7 @@ text-align: right;
 
    @media only screen and (max-width:375px) 
              {
-                 .container {
-                     width: 375px;
-                    
-                     background: url(intro-bg.jpg);
-                 }
+                 
 
 
        .back-text {
