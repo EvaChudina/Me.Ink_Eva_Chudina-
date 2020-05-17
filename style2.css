@@ -17,7 +17,7 @@ html, body {
 
 
 .second-window {
-    visibility: hidden; 
+    
     width: 200px;
     height: 400px;
     display: flex;
@@ -51,7 +51,7 @@ font-size: 30px;
 
 
 .third-window {
-    visibility: hidden; 
+    
     position: absolute;
     width: 328px;
     height: 260px;
@@ -101,7 +101,7 @@ margin-top: 68px;
 
 
 .fourth-window {
-    visibility: hidden;
+    
     position: absolute;
 width: 393px;
 height: 270px;
@@ -150,7 +150,7 @@ height: 272px;
 
 
 .five-window {
-    visibility: hidden;
+   
     position: absolute;
 width: 300px;
 height: 270px;
@@ -198,7 +198,7 @@ height: 270px;
 
  
 .six-window {
-    visibility: hidden;
+    
     position: absolute;
     position: absolute;
     width: 200px;
@@ -238,7 +238,7 @@ box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 
 
 .seven-window {
-    visibility: hidden;
+    
     position: absolute;
     width: 470px;
 height: 350px;
@@ -327,7 +327,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
 .eight-window {
-    visibility: hidden;
+    
     position: absolute;
     width: 353px;
     height: 505px;
@@ -472,7 +472,7 @@ top: 230px;
 }
 
 .nine-window {
-visibility: hidden;
+
 position: absolute;
 display: block;
 width: 244px;
@@ -505,7 +505,7 @@ top: -15px;
    
 }
 .ten-window {
-visibility: hidden;
+
 position: absolute;
 width: 319px;
 height: 338px;
@@ -549,7 +549,7 @@ margin-bottom: -10px;
 
   
      .eleven-window {
-        visibility: hidden;
+        
         position: absolute;
         width: 353px;
         height: 370px;
@@ -681,7 +681,7 @@ margin-bottom: -10px;
 
 
 .twelf-window {
-    visibility: hidden;
+    
     position: absolute;
     height: 348px;
     width: 102px;
@@ -722,7 +722,7 @@ margin-bottom: -10px;
 
 
  .thirteen-window {
-    visibility: hidden;
+    
     position: absolute;
 width: 300px;
 height: 200px;
@@ -797,7 +797,7 @@ background: url(Screenshot_2.png);
 
 
  .fourteen-window {
-    visibility: hidden;
+    
     position: absolute;
 width: 290px;
 height: 187px;
@@ -858,7 +858,7 @@ text-align: right;
 
 .fivteen-window {
     visibility: hidden;
-
+    
     position: absolute;
     width: 157px;
     height: 157px;
@@ -878,6 +878,7 @@ text-align: right;
 .close-14 {
     position: absolute;
     top: -100px;
+    left:148px;
 }
 
 .fivteen-window-img {
@@ -887,216 +888,41 @@ text-align: right;
 }
 
 .sixteen-window {
-    visibility: hidden;
+    
     
     position: absolute;
-    width: 272px;
-    height: 239px;
-    top: 300px;
-    left: -240px;
+    width: 157px;
+    height: 157px;
+    top: 180px;
+    left: 180px;
     
-    background: #16202A;
+    background: #F7F7F7;
 }
 
 .sixteen-window-text {
     position: absolute;
-    color: white;
-    top: 10px;
-    font-family:  'Montserrat', sans-serif;
-    font-size: 13px;
-    margin-right: 10px;
-    margin-left: 10px;
-
+    margin-top: 100px;
+    font-family: Impact;
+    font-size: 12px;
 
 }
 .close-15 {
     position: absolute;
-    color: white;
-    top: -10px;
-    left: 250px;
-    font-family:  'Montserrat', sans-serif;
-    font-size: 13px;
+    top: -100px;
+    
 }
 
 .sixteen-window-img {
     position: absolute;
-    width: 45%;
-    left: 0px;
-    top: 105px;
+    width: 50%;
+    left: 35px;
 }
-.sixteen-window-img2 {
-    position: absolute;
-    width: 88px;
-    left: 170px;
-    top: 112px;
-}
-
 
 .seventeen-window {
-   visibility: hidden;
-    position: absolute;
-width: 160px;
-height: 220px;
-left: 60px;
-top: 290px;
-background: white;
-
-}
-
-.seventeen-window-text {
-position: absolute;
-    font-family:  'Montserrat', sans-serif;
-  font-size: 11px;
- 
-
-}
-.close-16{
-    position: absolute;
-    color: black;
-    left: 149px;
-    top: 1px;
-
-}
-
-
-.seventeen-window-img {
-    position: absolute;
-    width: 100%;
-    margin-top: 20px;
-    
-}
-
-
-
-
-
-
-
-
-.eighteen-window {
     visibility: hidden;
-    position: absolute;
-width: 199px;
-height: 199px;
-top: 330px;
-left: 180px;
-background: url(Causewashing-is-the-new-greenwashing.png);
-background-size: cover;
-  
-
+    height: 100px;
+    width: 200px;
 }
-
-.eighteen-window-text {
-    position: absolute;
-    font-family: Impact;
-    
-     margin-top: 126px;
-     margin-left: 5px;
-     font-size: 14px;
-     
-    
-}
-
-.close-17{
-    position: absolute;
-    top: -126px;
-    left: 185px;
-}
-.eighteen-window-img {
-    position: absolute;
-    visibility: hidden;
-}
-
-.nineteen-window {
-    visibility: hidden;
-    position: absolute;
-width: 198px;
-height: 60px;
-top: 430px;
-left: 300px;
-background: #C4C4C4;
-}
-
-.nineteen-window-text {
-    position: absolute;
-    font-size: 11px;
-    font-family: Arial;
-margin-left: 3px;
-margin-right: 3px;
-}
-
-.close-18 {
-    position: absolute;
-    left: 187px;
-    font-family: Arial;
-    top: 1px;
-}
-.nineteen-window-img {
-    position: absolute;
-    width: 103%;
-    top:60px;
-    right: -3px;
-}
-
-
-.twenty-window {
-    visibility: hidden;
-    position: absolute;
-width: 204px;
-height: 286px;
-top: 240px;
-left: 440px;
-
-background: #E2E2E2;
-}
-
-.twenty-window-text {
-    position: absolute;
-    font-size: 11px;
-    margin-top: 10px;
-    margin-left: 3px;
-    margin-right: 3px;
-    font-family: Arial;
-}
-
-.close-19 {
-    position: absolute;
-    top: -10px;
-    font-size: 12px;
-    left: 190px;
-    font-family: Arial;
-}
-.twenty-window-img {
-    
-    position: absolute;
-    width: 90%;
-    border-radius: 14px;
-    top: 90px;
-    left: 10px;
-}
-
-.twentyone-window {
-    visibility: hidden;
-    position: absolute;
-width: 1581px;
-height: 767px;
-right: -402px;
-top: -180px;
-background: rgba(0, 0, 0, 0.4);
-}
-
-.twentyone-window-text {
-    position: absolute;
-}
-.twentyone-window-img {
-    position: absolute;
-    width: 50%;
-}
-
-
-
-
-
 
 
  .container

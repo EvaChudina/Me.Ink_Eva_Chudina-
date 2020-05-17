@@ -25,11 +25,20 @@ let thirteenWindow = document.querySelector('.thirteen-window','.thirteen-window
 let close12Window = document.querySelector( '.close-12');
 let fourteenWindow = document.querySelector('.fourteen-window','.fourteen-window-text', '.fourteen-window-img')
 let close13Window = document.querySelector( '.close-13');
-let fivteenWindow = document.querySelector('fivteen-window','.fivteen-window-text', '.fivteen-window-img')
+let fivteenWindow = document.querySelector('.fivteen-window','.fivteen-window-text', '.fivteen-window-img')
 let close14Window = document.querySelector( '.close-14');
-let sixteenWindow = document.querySelector('sixteen-window','.sixteen-window-text', '.sixteen-window-img')
+let sixteenWindow = document.querySelector('.sixteen-window','.sixteen-window-text', '.sixteen-window-img','.sixteen-window-img2')
 let close15Window = document.querySelector( '.close-15');
-
+let seventeenWindow = document.querySelector('.seventeen-window','.seventeen-window-text', '.seventeen-window-img')
+let close16Window = document.querySelector( '.close-16');
+let eighteenWindow = document.querySelector('.eighteen-window','.eighteen-window-text', '.eighteen-window-img')
+let close17Window = document.querySelector( '.close-17');
+let nineteenWindow = document.querySelector('.nineteen-window','.nineteen-window-text', '.nineteen-window-img')
+let close18Window = document.querySelector( '.close-18');
+let twentyWindow = document.querySelector('.twenty-window','.twenty-window-text', '.twenty-window-img')
+let close19Window = document.querySelector( '.close-19');
+let twentyoneWindow = document.querySelector('.twentyone-window','.twentyone-window-text', '.twentyone-window-img')
+let close20Window = document.querySelector( '.close-20');
 
 
 aboutWindow.addEventListener('click', function(){
@@ -79,5 +88,23 @@ close13Window.addEventListener('click', function(){
 close14Window.addEventListener('click', function(){
     sixteenWindow.style.setProperty('visibility', 'visible');
 });
+close15Window.addEventListener('click', function(){
+    seventeenWindow.style.setProperty('visibility', 'visible');
+});
+close16Window.addEventListener('click', function(){
+    eighteenWindow.style.setProperty('visibility', 'visible');
+});
+close17Window.addEventListener('click', function(){
+   nineteenWindow.style.setProperty('visibility', 'visible');
+});
+close18Window.addEventListener('click', function(){
+    twentyWindow.style.setProperty('visibility', 'visible');
+});
+close19Window.addEventListener('click', function(){
+    twentyoneWindow.style.setProperty('visibility', 'visible');
+});
+
+
+
 
 
